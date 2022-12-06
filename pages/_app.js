@@ -1,11 +1,11 @@
-import { ThemeProvider } from 'next-themes'
+import { ThemeProvider } from "next-themes";
 import "styles/app.scss";
 import "styles/blog.scss";
 import MainLayout from "layouts/main";
-import {DefaultSeo} from "next-seo";
+import { DefaultSeo } from "next-seo";
 import Head from "next/head";
 import Script from "next/script";
-import {useRouter} from "next/router";
+import { useRouter } from "next/router";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -18,14 +18,18 @@ function MyApp({ Component, pageProps }) {
       <>
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="true"
+          />
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
             rel="stylesheet"
           />
         </Head>
         <DefaultSeo
-          title="Hi, I'm Rishi Mohan!"
+          title="Hi, I'm Emilien Bidet!"
           description="I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants."
           canonical={canonicalUrl}
           openGraph={{
