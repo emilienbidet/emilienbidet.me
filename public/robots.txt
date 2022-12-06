@@ -1,2 +1,9 @@
+# *
 User-agent: *
-Sitemap: https://rishimohan.me/sitemap.xml
+Allow: /
+
+# Host
+Host: https://emilienbidet.me
+
+# Sitemaps
+Sitemap: https://emilienbidet.me/sitemap.xml
